@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    background-color: #020202;
+  }
+  
+  .header {
+    /*text-align: center;*/
+    background-color: black;
+    /*padding-top: .2px;
+    padding-bottom: .2px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+    padding: 10px;
+    position: relative;
+  }
+  
+  .header h1 {
+    /*margin-top: 10px; 
+    margin-bottom: 5px;*/
+    margin: 0;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 30;
+  }
+  
+  .header-icons {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 10px;
+  }
+  
+  .header-icons a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .header-icons a:active {
+    font-variation-settings:
+    'FILL' 100,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  
+  }
+  .feed {
+    margin: 0 auto;
+  }
+  
+  .post {
+    background-color: black;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom:5px;
+  }
+  
+  .partearribapost {
+    display: flex;
+    height: 8%;
+    ;
+  }
+  .partearribapost img {
+    width:45px; 
+    height: 41px; 
+    border-radius: 85%;
+    object-fit: cover;
+    object-position: top;
+    margin-left: 3px;
+    margin-right: 5px
+  }
+  
+  .partearribapost i {
+    width: 5%;
+    margin-top: 5px;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+  }
+  .postimgcontainer {
+    display: flex;
+    height: auto;
+    width: auto;
+    margin-bottom: 10px
+  }
+  
+  .nombredelpost {
+    width: 85%;
+    object-position: top;
+    margin-bottom: 10px;
+    margin-top: 9px;
+    font-family: "Prompt", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  .likessection {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-family: 'Verdana';
+    font-size: smaller;
+  }
+  
+  .listadeiconos {
+    display: inline;
+    color: white
+  }
+  
+  /* Settings de la Clase del like/heart/share buttons
+  .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+  } */
+  
+  
+  .listadeiconos > li {
+    cursor: pointer;
+  }
+  
+  .listadeiconos > li:active {
+    font-variation-settings:
+    'FILL' 100,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  
+  #send {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 29;
+  }
+  
+  span {
+    cursor: pointer;
+  }
+  
+  
+  p, h4, h1 {
+    color: white;
+  }
+  
+  .parrafomorecontainer p {
+     margin-top: 16px;
+      margin-bottom: 5px;
+  }
+  
+  
+  .Leercommentsdiv > p {
+    margin-top: 1px;
+    font-size: 11px;
+    text-decoration: none;
+    font-family: 'Arial';
+    color: #b3b3b3;
+    cursor: pointer;
+  }
